@@ -28,5 +28,8 @@ SELECT COUNT(`phone`) FROM `teachers`;
 SELECT COUNT(`phone`) FROM `teachers` WHERE `phone` IS NULL;
 
 -- 9. Inserire nella tabella degli studenti un nuovo record con i propri dati (per il campo degree_id, inserire un valore casuale)
+INSERT INTO `students` (date_of_birth, degree_id, email, enrolment_date, fiscal_code, id, name, registration_number, surname)
+VALUES ("1996-06-09", "75", "legovini96@gmail.com", "2014-09-01", "LGVKCP96R09T483Q", "5001", "Jacopo", "10", "Legovini");
+
 -- 10. Cambiare il numero dell’ufficio del professor Pietro Rizzo in 126
 -- 11. Eliminare dalla tabella studenti il record creato precedentemente al punto 9
